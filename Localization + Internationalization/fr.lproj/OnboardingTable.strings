@@ -1,0 +1,17 @@
+/* 
+  Onboarding.strings
+  Localization + Internationalization
+
+  Created by Ahemadabbas Vagh on 06/02/19.
+  Copyright © 2019 Ahemadabbas Vagh. All rights reserved.
+*/
+
+"FirstNamePlaceHolder" = "Prénom";
+
+"MobileNumberPlaceHolder" = "Numéro de portable";
+
+"LastNamePlaceHolder" = "Nom de famille";
+
+"CheckDetailsButton" = "Vérifier les détails";
+
+"CloseScreenButton" = "Fermer l'écran";

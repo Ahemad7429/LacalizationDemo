@@ -1,0 +1,19 @@
+/* 
+  SettingTable.strings
+  Localization + Internationalization
+
+  Created by Ahemadabbas Vagh on 06/02/19.
+  Copyright © 2019 Ahemadabbas Vagh. All rights reserved.
+*/
+
+"CountFileLabel" = "0";
+
+"PluralizeTitleLabel" = "Check Pluralization Concept";
+//"CountFileDescLabel"
+"Minus" = "Minus";
+
+"ChangeLanguage" = "Change Language";
+
+"Plus" = "Plus";
+
+"Dismiss" = "Dismiss";

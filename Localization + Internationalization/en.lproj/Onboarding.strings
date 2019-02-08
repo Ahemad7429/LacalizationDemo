@@ -1,0 +1,15 @@
+
+/* Class = "UITextField"; placeholder = "Last Name"; ObjectID = "4e6-7z-ogu"; */
+"4e6-7z-ogu.placeholder" = "Last Name";
+
+/* Class = "UIButton"; normalTitle = "Close Screen"; ObjectID = "8xv-q5-oEJ"; */
+"8xv-q5-oEJ.normalTitle" = "Close Screen";
+
+/* Class = "UIButton"; normalTitle = "Check Details"; ObjectID = "PIS-9z-DE2"; */
+"PIS-9z-DE2.normalTitle" = "Check Details";
+
+/* Class = "UITextField"; placeholder = "Mobile Number"; ObjectID = "gRS-u3-e95"; */
+"gRS-u3-e95.placeholder" = "Mobile Number";
+
+/* Class = "UITextField"; placeholder = "First Name"; ObjectID = "zbo-Ia-Syd"; */
+"zbo-Ia-Syd.placeholder" = "First Name";

@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; normalTitle = "Minus"; ObjectID = "Jwc-NM-9Go"; */
+"Jwc-NM-9Go.normalTitle" = "Minus for french";
+
+/* Class = "UIButton"; normalTitle = "Plus"; ObjectID = "KSk-Zt-E9C"; */
+"KSk-Zt-E9C.normalTitle" = "Plus for french";
+
+/* Class = "UILabel"; text = "Number of people or single person goes here."; ObjectID = "fFT-mg-dfP"; */
+"fFT-mg-dfP.text" = "Number of people or single person goes here for french";
+
+/* Class = "UIButton"; normalTitle = "Dismiss"; ObjectID = "jNu-JT-s2i"; */
+"jNu-JT-s2i.normalTitle" = "Dismiss for french";

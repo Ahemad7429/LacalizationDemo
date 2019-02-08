@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Little Bit Description About Main Screen Little Bit Description About Main Screen Little Bit Description About Main Screen"; ObjectID = "0Bm-VA-VZR"; */
+"0Bm-VA-VZR.text" = "Little Bit Description About Main Screen Little Bit Description About Main Screen Little Bit Description About Main Screen for french";
+
+/* Class = "UILabel"; text = "Select Your Language"; ObjectID = "Qlk-eO-UbX"; */
+"Qlk-eO-UbX.text" = "Select Your Language for french";
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "Txk-mt-Bp3"; */
+"Txk-mt-Bp3.text" = "Language for french";
+
+/* Class = "UIButton"; normalTitle = "GOTO ONBOARDING"; ObjectID = "WN3-Ws-Xhi"; */
+"WN3-Ws-Xhi.normalTitle" = "GOTO ONBOARDING for french";
+
+/* Class = "UIButton"; normalTitle = "GOTO SETTINGS"; ObjectID = "dZR-93-Ewg"; */
+"dZR-93-Ewg.normalTitle" = "GOTO SETTINGS for french";

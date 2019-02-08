@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--OnboardingVC-->
+        <scene sceneID="aoq-hI-ULn">
+            <objects>
+                <viewController storyboardIdentifier="OnboardingVC" id="nIn-IF-exs" customClass="OnboardingVC" customModule="Localization___Internationalization" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vw5-PJ-6mb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="J7y-iv-Lk3">
+                                <rect key="frame" x="50" y="350" width="275" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="bHQ-e2-uFs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="eXo-mu-qx1">
+                                <rect key="frame" x="50" y="100" width="275" height="140"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zbo-Ia-Syd">
+                                        <rect key="frame" x="0.0" y="0.0" width="275" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4e6-7z-ogu">
+                                        <rect key="frame" x="0.0" y="55" width="275" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Mobile Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gRS-u3-e95">
+                                        <rect key="frame" x="0.0" y="110" width="275" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PIS-9z-DE2">
+                                <rect key="frame" x="140" y="270" width="95" height="30"/>
+                                <state key="normal" title="Check Details"/>
+                                <connections>
+                                    <action selector="checkDetailsButtonWasTapped:" destination="nIn-IF-exs" eventType="touchUpInside" id="4xg-1O-yJC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8xv-q5-oEJ">
+                                <rect key="frame" x="142" y="607" width="91" height="30"/>
+                                <state key="normal" title="Close Screen"/>
+                                <connections>
+                                    <action selector="closeScreenButtonTapped:" destination="nIn-IF-exs" eventType="touchUpInside" id="DWS-7D-v55"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="J7y-iv-Lk3" firstAttribute="centerX" secondItem="vw5-PJ-6mb" secondAttribute="centerX" id="4dP-la-zrw"/>
+                            <constraint firstItem="eXo-mu-qx1" firstAttribute="centerX" secondItem="vw5-PJ-6mb" secondAttribute="centerX" id="CvN-ZK-6Vd"/>
+                            <constraint firstItem="hYH-JO-aUC" firstAttribute="bottom" secondItem="8xv-q5-oEJ" secondAttribute="bottom" constant="30" id="Eu1-vx-lPD"/>
+                            <constraint firstItem="J7y-iv-Lk3" firstAttribute="top" secondItem="PIS-9z-DE2" secondAttribute="bottom" constant="50" id="HVJ-Zx-D2C"/>
+                            <constraint firstItem="hYH-JO-aUC" firstAttribute="trailing" secondItem="eXo-mu-qx1" secondAttribute="trailing" constant="50" id="Iv2-hT-6M5"/>
+                            <constraint firstItem="eXo-mu-qx1" firstAttribute="top" secondItem="hYH-JO-aUC" secondAttribute="top" constant="80" id="ZFY-TI-CGq"/>
+                            <constraint firstItem="PIS-9z-DE2" firstAttribute="centerX" secondItem="vw5-PJ-6mb" secondAttribute="centerX" id="cLt-zU-1jO"/>
+                            <constraint firstItem="eXo-mu-qx1" firstAttribute="leading" secondItem="hYH-JO-aUC" secondAttribute="leading" constant="50" id="f7F-L6-jqE"/>
+                            <constraint firstItem="PIS-9z-DE2" firstAttribute="top" secondItem="eXo-mu-qx1" secondAttribute="bottom" constant="30" id="gEE-cN-CCt"/>
+                            <constraint firstItem="8xv-q5-oEJ" firstAttribute="centerX" secondItem="vw5-PJ-6mb" secondAttribute="centerX" id="k7R-hL-4dE"/>
+                            <constraint firstItem="hYH-JO-aUC" firstAttribute="trailing" secondItem="J7y-iv-Lk3" secondAttribute="trailing" constant="50" id="rGC-MX-qiE"/>
+                            <constraint firstItem="J7y-iv-Lk3" firstAttribute="leading" secondItem="hYH-JO-aUC" secondAttribute="leading" constant="50" id="tXi-Bo-e2f"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hYH-JO-aUC"/>
+                    </view>
+                    <connections>
+                        <outlet property="firstNameTextField" destination="zbo-Ia-Syd" id="iot-zp-ief"/>
+                        <outlet property="lastNameTextField" destination="4e6-7z-ogu" id="gGG-0s-2Do"/>
+                        <outlet property="mobileNumberTextField" destination="gRS-u3-e95" id="R4S-qx-xKL"/>
+                        <outlet property="userDetailsTextView" destination="J7y-iv-Lk3" id="if3-ix-M4O"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P5d-Za-uTr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

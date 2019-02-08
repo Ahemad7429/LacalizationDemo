@@ -1,0 +1,16 @@
+/* 
+  MainTable.strings
+  Localization + Internationalization
+
+  Created by Ahemadabbas Vagh on 06/02/19.
+  Copyright © 2019 Ahemadabbas Vagh. All rights reserved.
+*/
+
+
+"DescriptionLabel" = "Little Bit Description About App";
+
+"GoToSettings" = "Go To Settings";
+
+"GoToOnboarding" = "Go To Onbaording";
+
+"ChangeLanguageLabel" = "Change Language";
